@@ -39,7 +39,8 @@
     <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>denvic_dev_key.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -66,14 +67,10 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="IDenvicBarcode.cs" />
-    <Compile Include="IObjectSafety.cs" />
-    <Compile Include="ISpecifyPropertyPages.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TypeBarcodeEnum.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="DenvicKey.pfx" />
-    <None Include="denvic_dev_key.pfx" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
